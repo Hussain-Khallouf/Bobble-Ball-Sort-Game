@@ -3,6 +3,8 @@ from abc import ABC, abstractmethod
 from typing import List, Tuple
 from termcolor import colored
 from schema.board import Board
+# from ..schema.board import Board
+# from schema.board import Board
 
 
 class SolverStrategy(ABC):
